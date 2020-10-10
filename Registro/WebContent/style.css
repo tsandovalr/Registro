@@ -1,0 +1,27 @@
+.register-container{
+    border-style: solid;
+    padding: 50px;
+    color:#fff;
+    background:linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5)
+    
+}
+#register-form{
+    padding: 30px;
+    text-align:center;
+    
+}
+
+.content{
+    padding: 15px;
+}
+
+.boton-registrar{
+	margin-left:15%;
+}
+
+h1{
+	font-family:"Lato",Arial,sans-serif;
+}
+h2{
+	font-family:"Monserrat,Arial";
+}

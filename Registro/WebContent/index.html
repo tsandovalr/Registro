@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="./assets/js/FetchLibrary.js" defer></script>
+    <script src="index.js" defer></script>
+    
+    <title>Clase 1 de Web 2</title>
+</head>
+    <body>
+        <main class="register-container">
+            <section class="form-container">
+                <h1 class="tittle">REGISTRO</h1>
+                <form method="post" action="Register" id="register-form">
+                
+                    <div class="content">
+                    <label class="form-label" for="name">Name:</label>
+                    <input class="form-input" id="name" type="text" placeholder="name" name="name" required><br>
+                    </div>
+
+                    <div class="content">
+                    <label class="form-label" for="email">Email:</label>
+                    <input class="form-input" id="email" type="email" placeholder="Example@gmail.com" name="email" required><br>
+                    </div>
+
+                    <div class="content">
+                    <label class="form-label" for="pass">Password:</label>
+                    <input class="form-input" id="password" type="password" placeholder="password" name="password" required>
+                    </div>
+                  <div>
+                  <button type="submit" class="boton-registrar" onclick="registrar();">Registrar</button>
+                  </div>
+                  
+                  </form>
+                
+                   
+               
+                <span class="auth-text">Ya Tienes Cuenta <a class="auth-link" href="./assets/pages/login.html">Ingresa</a></span>
+            </section>
+        </main>
+    </body>
+</html>
